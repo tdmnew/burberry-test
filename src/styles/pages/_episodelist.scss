@@ -1,0 +1,35 @@
+.episode-list {
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 25rem;
+    width: auto;
+
+    &__season {
+        font-weight: bold;
+    }
+
+    &__toggle {
+        float: right;
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 11px;
+        list-style: none;
+        border: 1px solid black;
+        cursor: pointer;
+        padding: .5rem .25rem .5rem .25rem;
+    }
+}
+
+.episode { 
+    display: none;
+}
+
+@media (max-width: 490px) {
+    .episode-list {
+        &__toggle {
+            display: none;
+        }
+    }
+}

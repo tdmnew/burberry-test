@@ -1,0 +1,24 @@
+.show {
+    padding: 1rem;
+
+    &__heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        &__image {
+            height: 10rem;
+        }
+    }
+}
+
+@media (max-width: 490px) {
+    .show__summary {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,14 @@
+@import './layout/navbar';
+@import './layout/dashboard';
+
+@import './pages/episodelist';
+@import './pages/show';
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #262f30;
+}
